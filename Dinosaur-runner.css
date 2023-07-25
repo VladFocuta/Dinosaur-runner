@@ -1,0 +1,119 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(243, 235, 215);
+}
+
+#gameTable {
+  height: 36%;
+  width: 30%;
+  outline: 1px solid black;
+  position: relative;
+  background-image: url("Unbenannt.png");
+  background-size: cover;
+
+}
+
+.dino {
+  position: absolute;
+  height: 20%;
+  width: 12%;
+  bottom: 16%;
+  left: 30%;
+  background-image: url('dino.png');
+  background-size: cover;
+}
+
+.bigCactus {
+  position: absolute;
+  height: 23%;
+  width: 30%;
+  bottom: 10%;
+  right: 0%;
+  background-image: url('obstacle.png');
+  background-size: cover;
+  pointer-events: none;
+}
+
+.smallCactus {
+  position: absolute;
+  height: 20%;
+  width: 10%;
+  bottom: 8%;
+  right: 0%;
+  background-image: url('cactus.png');
+  background-size: cover;
+  pointer-events: none;
+}
+
+.score {
+  border: none;
+  position: absolute;
+  top: 2%;
+  right: 8%;
+  font-size: 15px;
+  font-style: italic;
+  width: 9%;
+  text-align: center;
+}
+
+.finalScore {
+  border: none;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  font-size: 15px;
+  font-style: initial;
+  width: 12%;
+  text-align: center;
+}
+
+.clouds {
+  background-image: url('Untitled.png');
+  background-size: cover;
+  position: absolute;
+  height: 17%;
+  width: 19%;
+  top: 2%;
+  right: 0%;
+}
+
+.second-clouds {
+  background-image: url('Untitled.png');
+  background-size: cover;
+  position: absolute;
+  height: 15%;
+  width: 16%;
+  top: 2%;
+  right: 30%;
+}
+
+.high-score {
+  border: none;
+  position: absolute;
+  top: 2%;
+  right: 20%;
+  font-size: 15px;
+  font-style: italic;
+  width: 9%;
+  text-align: center;
+}
+
+.dinoMoved {
+  position: absolute;
+  height: 20%;
+  width: 12%;
+  bottom: 16%;
+  left: 30%;
+  background-image: url('dino2.png');
+  background-size: cover;
+}
